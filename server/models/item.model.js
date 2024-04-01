@@ -7,7 +7,7 @@ const ItemSchema = new Schema(
 
 "required" is a validation rule that must be true to save a number, and the final string is an error message thrown if we fail it. We also have two more rules, one for the minlength, one for the maxlength, all using the same format. */
   {
-    item: {
+    itemName: {
         type: String,
         minlength: [1, "Item must be at least one character or digit!"],
         maxlength: [20, "item must be no more than 20 characters long!"],
@@ -33,6 +33,7 @@ const ItemSchema = new Schema(
         minlength: [1, "Item Count must be at least three characters!"],
         maxlength: [20, "Item Count must be no more that 20 characters long!"],
     },
+
 },
 
   { timestamps: true }

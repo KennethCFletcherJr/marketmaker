@@ -1,0 +1,54 @@
+
+
+
+.main-view {
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: left;
+ 
+
+
+}
+
+.item-create {
+  margin-left: 100px;
+  
+}
+
+.item-list {
+
+ margin-left: 0px;
+}
+
+
+.item-list hr {
+    width: 100%;
+    color: black;
+    background-color: black;
+    height: 3px;
+  }
+
+  .item-create hr {
+    width: 75%;
+    color: black;
+    background-color: black;
+    height: 3px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  table {
+    border: 2px red;
+  }
+
+
+  input {
+    width: 175px;
+  }
+
+  .error {
+    color: red;
+  }
